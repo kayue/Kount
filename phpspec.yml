@@ -1,0 +1,5 @@
+suites:
+    suite:
+        namespace: Kayue\Kount
+        psr4_prefix: Kayue\Kount
+        src_path: src

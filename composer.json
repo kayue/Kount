@@ -1,0 +1,24 @@
+{
+    "name": "kayue/kount",
+    "description": "PHP library to consume Kount API",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kayue\\Kount\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kayue",
+            "email": "kayuey@gmail.com"
+        }
+    ]
+}
